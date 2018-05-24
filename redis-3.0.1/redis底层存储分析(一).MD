@@ -199,3 +199,9 @@ int dictRehash(dict *d, int n) {
 }
 
 ```
+上面代码对应的过程如下：
+
+过程一：
+![](https://github.com/wangkang007/redis-source-read/raw/master/redis-3.0.1/static/redis_rehash_one.png)
+
+过程二：
